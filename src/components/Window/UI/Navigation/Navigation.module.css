@@ -1,0 +1,16 @@
+.NavigationWrapper {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 2em;
+    padding: 0.1rem;
+    border-radius: 5px 5px 0 0;
+}
+.NavigationTitle{
+    user-select: none;
+    z-index: 15;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+}

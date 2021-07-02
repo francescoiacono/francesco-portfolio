@@ -1,0 +1,8 @@
+.HeroWrapper {
+    text-align: center;
+}
+
+.HeroWrapper h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}

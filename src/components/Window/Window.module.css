@@ -1,0 +1,7 @@
+.WindowWrapper {
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    height: 30rem;
+    border-radius: 6px;
+}

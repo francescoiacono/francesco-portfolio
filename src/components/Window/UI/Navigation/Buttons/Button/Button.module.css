@@ -1,0 +1,18 @@
+.Button{
+    user-select: none;
+    height: 0.9rem;
+    width: 0.9rem;
+
+    color: #000;
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.2rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.Button:hover{
+    cursor: pointer;
+}

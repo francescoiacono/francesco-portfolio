@@ -1,0 +1,7 @@
+.ButtonsWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 .3rem;
+    width: 4rem;
+    z-index: 20;
+}
