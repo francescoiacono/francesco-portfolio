@@ -1,14 +1,17 @@
 import React from 'react'
+import { useWindow } from '../../../../../../Providers/Window'
 import classes from './Button.module.css'
 
 const Button = ({color, type}) => {
+    const {toggleOpen} = useWindow();
+
     return (
-        <div className={classes.Button} style={{
+        <div onClick={toggleOpen} className={classes.Button} style={{
             background: `${color}`
         }}>
-            {type === 'closeWindow' && <p>X</p>} 
-            {type === 'minimizeWindow' && <p>—</p>} 
-            {type === 'enlargeWindow' && <p>O</p>} 
+            {type === 'closeWindow' && <p></p>} 
+            {type === 'minimizeWindow' && <p></p>} 
+            {type === 'enlargeWindow' && <p></p>} 
         </div>
     )
 }

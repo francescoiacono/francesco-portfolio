@@ -14,4 +14,4 @@ const Navigation = ({windowTitle}) => {
     )
 }
 
-export default Navigation;
+export default Navigation

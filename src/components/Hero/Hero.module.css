@@ -1,8 +1,16 @@
 .HeroWrapper {
-    text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .HeroWrapper h1 {
-    font-size: 5rem;
-    font-weight: lighter;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.IBContainer {
+  display: flex;
 }

@@ -1,0 +1,25 @@
+.IconButtonWrapper{
+    margin: .5rem;
+}
+
+.IconButton {
+    margin: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    transition: background-color .2s ease-out;
+}
+
+.IconButton:hover{
+    background-color: #ccc;
+}
+
+.IconButton:active{
+    background-color: #919191;
+}
+
+.IconButtonWrapper p {
+    font-size: .8rem;
+} 
